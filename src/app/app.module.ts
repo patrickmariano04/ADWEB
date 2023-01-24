@@ -15,12 +15,10 @@ import { SkillsComponent } from './skills/skills.component';
     AchievementsComponent,
     ReferencesComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
